@@ -22,6 +22,13 @@ router.post(
       return res.status(422).json({ errors: errors.array() });
     }
     const { name, email, password } = req.body;
+
+    try {
+        const user = 
+        
+    } catch (error) {
+        
+    }
   }
 );
 
